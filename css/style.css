@@ -1,0 +1,251 @@
+@import url(proxima_font.css);
+body{
+	background-color: #ebebeb;
+}
+* {
+	font-family: ProximaNova;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.ba-hero{
+	background-image: url(../img/wal.jpeg);
+	background-size: cover;
+	padding: 70px 200px;
+	
+}
+.ba-header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	color: #fff;
+	z-index: 5;
+	padding-top: 35px;
+}
+.ba-nav{
+	margin-left: 190px;
+}
+.ba-nav__list {
+	display: flex;
+	justify-content: space-between;
+	max-width: 580px;
+	
+}
+.ba-nav__link{
+	text-transform: uppercase;
+	font-size: 24px;
+	color: #ffffff;
+}
+.ba-hero__title{
+	padding-top: 300px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 72px;
+	color: #fefefb;
+}
+.ba-hero__sub-title{
+	padding-top: 40px;
+	padding-bottom: 510px;
+	color: #fefdfd;
+	font-size: 30px;
+	font-style: italic;
+	font-family: "PT Sans";
+	font-weight: 400;
+}
+.ba-about-m{
+	position: absolute;
+	top: 26%;
+    left: 11.5%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+}
+#ba-about{
+	padding-bottom: 120px;
+}
+.ba-about__title{
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 36px;
+	color: #fefbfc;
+}
+.ba-about__text{
+	font-weight: 400;
+	font-family: "PT Sans";
+	font-size: 20px;
+	color: #665f60;
+	line-height: 1.35em;
+}
+.ba-about__about{
+	padding: 50px 0px 110px 0px;
+}
+.ba-row__s{
+	padding-top: 120px;
+	position: relative;
+}
+.ba-about-more{
+	border: 1px solid #7d7a7c;
+	width: 195px;
+	height: 50px;
+	padding: 12px 48px;
+	margin: 0 auto;
+}
+.ba-about-more__button{
+	font-style: italic;
+	font-size: 20px;
+	font-family: "PT Sans";
+	color: #7d7a7c;
+	text-align: center;
+}
+.ba-footer{
+	background-color: #9f9acf;
+	padding: 75px 0 75px 0;
+}
+.ba-soc__list{
+	display: flex;
+	justify-content: space-between;
+	max-width: 300px;
+	margin-left: 250px;
+}
+.ba-footer__text{
+	font-size: 18px;
+	font-weight: 400;
+	color: #ffffff;
+	letter-spacing: 0.36px;
+}
+.ba-soc__item:hover{
+	opacity: 0.4;
+}
+.ba-about-more:hover{
+	background-color: #dbdbdb;
+	border: solid 1px black;
+	transform: 0.5s;
+}
+.ba-nav__link:hover{
+	color: #ff0967;
+}
+.ba-nav__link:active{
+	color: #ffc3da;
+}
+
+.ba-services-img{
+	background-image: url(../img/mob.jpeg);
+}
+.ba-services-title{
+	position: absolute;
+}
+.ba-test{
+	display: flex;
+}
+.ba-services-1, .ba-services-4{
+	background-color: #dbdbdb;
+}
+.ba-services-1, .ba-services-2, .ba-services-3, .ba-services-4{
+	width: 380px;
+	height: 400px;
+	padding: 100px 95px;
+}
+.mob-img{
+	width: 410px;
+	height: 800px;
+	position: relative;
+}
+.ba-services__title{
+	padding-top: 30px;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 24px;
+	font-family: "PT Sans";
+	color: #665f60;
+}
+.ba-services__sub-title{
+	font-style: italic;
+	font-size: 18px;
+	color: #665f60;
+	font-family: "PT Sans";
+}
+.ba-centr{
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	
+}
+.ba-services__mob-title{
+	position: absolute;
+	bottom: -134%;
+    right: 24%;
+}
+.ba-s__title{
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 36px;
+	color: #fefcfd;
+	font-family: "Proxima Nova - Semibold";
+	padding-top: 30px;
+	padding-bottom: 115px;
+}
+.ba-s__sub-title{
+	font-style: italic;
+	font-size: 18px;
+	color: #fefcfd;
+	font-family: "PT Sans";
+}
+.ba-recent{
+	background-image: url(../img/wal3.jpeg);
+}
