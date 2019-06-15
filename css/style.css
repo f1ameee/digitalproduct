@@ -249,3 +249,64 @@ a{
 .ba-recent{
 	background-image: url(../img/wal3.jpeg);
 }
+.ba-form {
+	position: relative;
+	width: 860px;
+	margin: 0 auto;
+	z-index: 2;
+	top: -230px;
+   }
+   textarea {
+	border: none;
+	width: 860px;
+	height: 200px;
+	background-color: #ebebeb;
+	opacity: 0.7;
+   }
+   input {
+	width: 414px;
+	height: 56px;
+	background-color: #ebebeb;
+	opacity: 0.7;
+	margin-bottom: 10px;
+	border: none;
+   }
+   
+   .ba-rows {
+	display: flex;
+	flex-wrap: wrap;
+   }
+   .ba-button {
+	border: none;
+	margin-top: 70px;
+	width: 293px;
+	height: 70px;
+	background-color: #9f9acf;
+	text-align: center;
+   }
+   .ba-button p {
+	height: 14px;
+	color: #ffffff;
+	font-family: "Proxima Nova", sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.3px;
+   }
+   .aa {
+	text-align: center;
+   }
+   .ba-maps {
+	background-size: cover;
+	margin: 0 auto;
+	width: 1600px;
+	height: 900px;
+	background-color: #9f9acf;
+	}
+	#ba-map {
+		width: 1600px;
+		height: 900px;
+		margin-right: 20px;
+		z-index: 0;
+		opacity: 0.7;
+	   }
